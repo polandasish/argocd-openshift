@@ -7,7 +7,7 @@ spec:
   destination:
     namespace: bubble-animation
     server: https://kubernetes.default.svc 
-  project: default 
+  project: apptest
   source: 
     path: bubble-animation/application-mainfest
     repoURL: https://github.com/ksingh7/argocd-openshift
